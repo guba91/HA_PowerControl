@@ -861,7 +861,7 @@ automation:
           {% elif states(states('input_text.carico_16_switch')) == 'on' and states('input_number.potenza_16_sospesa')|int(default=0) > 0 %}input_number.potenza_16_sospesa
           {% elif states(states('input_text.carico_17_switch')) == 'on' and states('input_number.potenza_17_sospesa')|int(default=0) > 0 %}input_number.potenza_17_sospesa
           {% elif states(states('input_text.carico_18_switch')) == 'on' and states('input_number.potenza_18_sospesa')|int(default=0) > 0 %}input_number.potenza_18_sospesa
-          {% elif states(states('input_text.carico_19_switch')) == 'on' and states('input_number.potenza_19_sospesa')|int(default=0) > 0 %}input_number.potenza_11_sospesa
+          {% elif states(states('input_text.carico_19_switch')) == 'on' and states('input_number.potenza_19_sospesa')|int(default=0) > 0 %}input_number.potenza_19_sospesa
           {% elif states(states('input_text.carico_20_switch')) == 'on' and states('input_number.potenza_20_sospesa')|int(default=0) > 0 %}input_number.potenza_20_sospesa
           {% else %}none
           {% endif %}"
